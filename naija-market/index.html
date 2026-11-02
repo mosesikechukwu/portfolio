@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f05032">
+  <meta name="description" content="Naija Market — a loud, joyful shop for work by independent makers in Nigeria and across Africa.">
+  <title>Naija Market — Made here. Taking up space.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">MADE BY HAND. NEVER BY THE DOZEN. <span>✳</span> FREE LAGOS DELIVERY OVER ₦75,000</div>
+  <header class="header">
+    <button class="icon-button mobile-menu" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    <a class="wordmark" href="#top" aria-label="Naija Market home">NAIJA<span> / MARKET</span></a>
+    <nav class="nav" aria-label="Main navigation"><a href="#shop">Everything</a><a href="#shop" data-nav-filter="Textiles">Textiles</a><a href="#shop" data-nav-filter="Objects">Home goods</a><a href="#shop" data-nav-filter="Art">Art & wall</a><a href="#story">The makers</a></nav>
+    <div class="header-actions"><button class="icon-button search-toggle" aria-label="Search products"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.6"></circle><path d="m16 16 4.2 4.2"></path></svg></button><button class="icon-button cart-trigger" aria-label="Open shopping bag">BAG <span class="cart-count">0</span></button></div>
+  </header>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy"><p class="eyebrow"><span class="eyebrow-mark">✳</span> INDEPENDENT MAKERS · NIGERIA & BEYOND</p><h1>MADE HERE.<br><span>TAKING UP</span><br>SPACE.</h1><div class="hero-bottom"><p>Colour, craft and everyday things with somewhere to come from.</p><a class="button button-dark" href="#shop">SHOP THE MARKET <span>↘</span></a></div><span class="hero-index">ISSUE 01 / LAGOS</span></div>
+      <div class="hero-art"><img src="https://images.unsplash.com/photo-1655682597128-2b10c079cf83?auto=format&fit=crop&w=1600&q=88" alt="A fabric seller arranging brightly patterned wax print cloth at an outdoor market"><span class="image-credit">MARKET DAY / WEST AFRICA</span><div class="hero-burst">GOOD<br>THINGS<br>LIVE HERE.</div></div>
+      <a class="hero-scroll" href="#shop">SCROLL THE STALL <span>↓</span></a>
+    </section>
+    <section class="marquee" aria-label="Shop local, shop makers"><div>BUY FROM THE HANDS THAT MAKE IT <span>✳</span> KEEP GOOD WORK IN CIRCULATION <span>✳</span> BUY FROM THE HANDS THAT MAKE IT <span>✳</span></div></section>
+    <section class="shop section-wrap" id="shop">
+      <div class="section-heading"><div><p class="eyebrow"><span class="eyebrow-mark">02</span> THE MARKET STALL</p><h2>GOOD GOODS.<br><span>GOOD PEOPLE.</span></h2></div><p class="heading-note">Every piece has a person,<br>a place and a point of view.</p></div>
+      <div class="shop-tools"><div class="categories" role="group" aria-label="Filter products"><button class="category active" data-category="All">ALL <span>08</span></button><button class="category" data-category="Textiles">TEXTILES</button><button class="category" data-category="Objects">HOME GOODS</button><button class="category" data-category="Art">ART & WALL</button></div><div class="shop-actions"><label class="shop-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.6"></circle><path d="m16 16 4.2 4.2"></path></svg><input id="shop-search" type="search" placeholder="Search the market" aria-label="Search products by name or category"></label><span class="results-count" id="results-count" aria-live="polite">08 ITEMS</span><label class="sort-control">SORT <select id="sort"><option value="featured">FEATURED</option><option value="low">PRICE ↑</option><option value="high">PRICE ↓</option></select></label></div></div>
+      <div class="product-grid" id="product-grid" aria-live="polite"></div>
+      <div class="shop-footer"><span>SMALL BATCH. BIG CHARACTER.</span><span>INDEPENDENT MAKERS, ALWAYS.</span></div>
+    </section>
+    <section class="story" id="story"><div class="story-image" role="region" aria-roledescription="carousel" aria-label="Makers and materials"><img id="maker-image" src="https://images.pexels.com/photos/29630132/pexels-photo-29630132.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Nigerian artisan shaping traditional pottery by hand" loading="lazy"><span class="story-photo-tag" id="maker-caption">A WORKING POTTERY STUDIO · NIGERIA</span><div class="maker-carousel-controls"><button id="maker-prev" aria-label="Previous maker photo">←</button><span id="maker-count" aria-live="polite">01 / 03</span><button id="maker-next" aria-label="Next maker photo">→</button></div></div><div class="story-copy"><p class="eyebrow"><span class="eyebrow-mark">03</span> WHO'S BEHIND THE THING?</p><h2>REAL HANDS.<br><span>REAL MATERIALS.</span></h2><p>Oja means market. We bring the market closer: independent makers, family workshops and small studios making things with skill and a sense of place.</p><a class="text-link" href="#newsletter">MEET THE MAKERS <span>↘</span></a><span class="story-number">NO MASS PRODUCTION. NO MYSTERY ORIGIN.</span></div></section>
+    <section class="values section-wrap"><div><span class="value-index">01 /</span><h3>MADE BY PEOPLE</h3><p>We name the hands and the places behind the work wherever we can.</p></div><div><span class="value-index">02 /</span><h3>ROOTED IN PLACE</h3><p>Adire, clay, carved wood, woven fiber. Work with a story to tell.</p></div><div><span class="value-index">03 /</span><h3>BOUGHT WITH CARE</h3><p>Small runs, fair prices and good things you'll want to keep around.</p></div></section>
+    <section class="newsletter" id="newsletter"><div><p class="eyebrow"><span class="eyebrow-mark">04</span> STAY IN THE LOOP</p><h2>NOTES FROM<br><span>THE MARKET.</span></h2><p>New makers, market stories and first dibs on new work.</p></div><form id="newsletter-form"><label for="email">YOUR EMAIL ADDRESS</label><div class="email-row"><input id="email" type="email" placeholder="you@example.com" required><button aria-label="Subscribe to newsletter">SIGN ME UP <span>↗</span></button></div><small id="newsletter-message">Occasional mail. Always worth opening.</small></form></section>
+  </main>
+  <footer class="footer"><a class="wordmark" href="#top">NAIJA<span> / MARKET</span></a><span>MADE HERE. TAKING UP SPACE.</span><div><a href="#shop">INSTAGRAM ↗</a><a href="mailto:hello@naijamarket.example">CONTACT</a><a href="#top">BACK TO TOP ↑</a></div><small>© 2026 Naija Market. For the makers.</small></footer>
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-labelledby="cart-title" aria-modal="true" role="dialog" aria-hidden="true"><div class="drawer-head"><div><p class="eyebrow"><span class="eyebrow-mark">✳</span> PICKED OUT FOR YOU</p><h2 id="cart-title">YOUR BAG <span class="cart-count">0</span></h2></div><button class="icon-button close-cart" aria-label="Close shopping bag">×</button></div><div class="cart-items" id="cart-items"></div><div class="cart-bottom"><div class="shipping-note" id="shipping-note"></div><div class="subtotal"><span>SUBTOTAL</span><strong id="subtotal">₦0</strong></div><p class="tax-note">Delivery details confirmed at checkout.</p><button class="button button-dark checkout-button" id="checkout">CONTINUE TO CHECKOUT <span>↗</span></button><button class="continue-shopping">BACK TO THE MARKET</button></div></aside>
+  <div class="modal" id="checkout-modal" role="dialog" aria-modal="true" aria-labelledby="checkout-title" hidden><div class="modal-card"><button class="icon-button modal-close" aria-label="Close checkout">×</button><p class="eyebrow"><span class="eyebrow-mark">✳</span> ALMOST YOURS</p><h2 id="checkout-title">NICE PICK.</h2><p>This portfolio demo has no live payment connection. Your bag is ready for a payment provider to be connected.</p><div class="checkout-summary"><span>ORDER SUBTOTAL</span><strong id="checkout-total">₦0</strong></div><button class="button button-dark" id="finish-demo">PLACE DEMO ORDER <span>↗</span></button><small>DEMO CHECKOUT · NO PAYMENT WILL BE TAKEN</small></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body></html>
+
